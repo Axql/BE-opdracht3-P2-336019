@@ -50,7 +50,7 @@
                             </a>
                         </td>
                         <td>
-                            
+
                             <?php if ($instructeur->IsActief == 1) { ?>
                                 <a href='<?= URLROOT ?>/instructeur/ziekverlof/<?= $instructeur->Id ?>'>
                                     <i class="bi bi-hand-thumbs-up"></i>
@@ -73,3 +73,5 @@
 </body>
 
 </html>
+
+s
